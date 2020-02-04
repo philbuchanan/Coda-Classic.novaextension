@@ -1,0 +1,320 @@
+meta {
+    -theme-interface-style: light;
+    -theme-vibrancy: vibrant;
+}
+
+/* Window Styles */
+meta.window {
+    background-color: #E7E7E7;
+    border-color: #D0CFD0;
+}
+meta.titlebar {
+    color: #000;
+    background-color: linear-gradient(#CDCDCD, #E5E5E5);
+    border-color: #A1A1A1;
+}
+meta.titlebar.inactive {
+    background-color: #E5E5E5;
+}
+
+/* Buttons & Fields */
+meta.button {
+    color: #272727;
+    background-color: white;
+    border-color: #D3D3D3;
+}
+meta.button.highlighted {
+    background-color: linear-gradient(#EEEEEE, #FAFAFA);
+}
+meta.button.selected {
+    color: white;
+    background-color: #367Af5;
+    border-color: #2C64CA;
+}
+meta.button.highlighted.selected {
+    background-color: linear-gradient(#2C64CA, #367Af5);
+}
+meta.textfield {
+    background-color: white;
+    border-color: #D3D3D3;
+}
+
+
+/* Document styles */
+meta.document {
+    background-color: white;
+    border-color: hsba(0, 0%, 100%, 0.1);
+}
+meta.text {
+    color: black;
+}
+meta.cursor {
+    background-color: #FAFAFA;
+}
+meta.text.invisible {
+    color: #D44A21;
+}
+meta.indentguide {
+    border-color: #E0E0E0;
+}
+meta.gutter {
+    color: #CCCCCC;
+    background-color: #FAFAFA;
+}
+meta.gutter.selected {
+    color: #333333;
+    background-color: #FAFAFA;
+}
+
+/* Syntax styles */
+keyword {
+    color: #881350;
+}
+comment {
+    color: #236E25;
+    font-style: italic;
+}
+processing {
+    color: #236E25;
+}
+declaration {
+    color: #000;
+}
+bracket {
+    color: #000;
+}
+operator {
+    color: #000;
+}
+invalid {
+    color: white;
+    background-color: #FF0000;
+}
+
+/* Values */
+value {
+    color: #881350;
+}
+value.boolean {
+    color: #881350;
+}
+value.null {
+    color: #881350;
+}
+value.number {
+    color: #1739f6;
+}
+value.entity {
+    color: #881350;
+}
+value.symbols {
+    color: #881350;
+}
+
+/* Strings */
+string {
+    color: #1A1AA6;
+}
+string.key {
+    color: #1A1AA6;
+}
+string-template {
+    color: #1A1AA6;
+}
+string-template.value {
+    color: #1A1AA6;
+}
+regex {
+    color: #661AA9;
+}
+regex.escaped {
+    color: #BE73FD;
+}
+cdata {
+    color: #FF0000;
+}
+
+/* Identifiers */
+identifier {
+    color: #825900;
+}
+identifier.type {
+    color: #881350;
+}
+identifier.type.class {
+    color: #661AA9;
+}
+identifier.type.protocol {
+    color: #661AA9;
+}
+identifier.type.enum {
+    color: #661AA9;
+}
+identifier.type.union {
+    color: #661AA9;
+}
+identifier.type.struct {
+    color: #661AA9;
+}
+identifier.global {
+    color: #881350;
+}
+identifier.variable {
+    color: #825900;
+}
+identifier.constant {
+    color: black;
+}
+identifier.property {
+    color: black;
+}
+identifier.decorator {
+    color: #881350;
+}
+identifier.function {
+    color: #661AA9;
+}
+identifier.method {
+    color: #661AA9;
+}
+identifier.key {
+    color: #000;
+}
+identifier.core {
+    color: #825900;
+}
+
+/* Definitions */
+definition {
+    color: black;
+}
+definition.type {
+    color: #881350;
+}
+definition.class {
+    color: #661AA9;
+}
+definition.package {
+    color: #661AA9;
+}
+definition.protocol {
+    color: #661AA9;
+}
+definition.enum {
+    color: #661AA9;
+}
+definition.union {
+    color: #661AA9;
+}
+definition.struct {
+    color: #661AA9;
+}
+definition.property {
+    color: black;
+}
+definition.function {
+    color: #661AA9;
+}
+definition.method {
+    color: #661AA9;
+}
+
+/* Tags */
+tag {
+    color: #881280;
+}
+tag.framework {
+    color: #DD0000;
+}
+tag.attribute {
+    color: #994500;
+}
+tag.attribute.name {
+    color: #994500;
+}
+tag.attribute.value {
+    color: #1A1AA6;
+}
+
+/* Style */
+style {
+    color: black;
+}
+style.at {
+    color: black;
+    font-weight: bold;
+}
+style.selector {
+    color: black;
+}
+style.selector.element {
+    color: black;
+}
+style.selector.identifier.id {
+    color: black;
+}
+style.selector.identifier.class {
+    color: black;
+}
+style.selector.pseudoclass {
+    color: #a15b1e;
+}
+style.selector.pseudoelement {
+    color: #a15b1e;
+}
+style.attribute {
+    color: #881350;
+}
+style.attribute.name {
+    color: #881350;
+}
+style.value {
+    color: #7f2520;
+}
+style.value.number {
+    color: #1838f5;
+}
+style.value.color {
+    color: #760F15;
+}
+style.value.named {
+    color: #881350;
+}
+style.value.hex {
+    color: #760F15;
+}
+style.value.keyword {
+    color: #9B4400;
+}
+
+/* Markup (Non-tag markup elements) */
+markup {
+    
+}
+markup.heading {
+    
+}
+markup.line {
+    
+}
+markup.bold {
+    
+}
+markup.italic {
+    
+}
+markup.strikethrough {
+    
+}
+markup.list {
+    
+}
+markup.list.item {
+    
+}
+markup.code {
+    
+}
+markup.link {
+    
+}

@@ -1,0 +1,9 @@
+{
+    "identifier": "pb.codaclassic",
+    "name": "Coda Classic",
+    "vendor": "Phil Buchanan",
+    "description": "Coda Classic syntax highlighting theme.",
+    "version": "0.1.0",
+    "categories": ["themes"],
+    "license": "MIT"
+}
