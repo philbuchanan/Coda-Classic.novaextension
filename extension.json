@@ -1,9 +1,9 @@
 {
-    "identifier": "pb.codaclassic",
+    "identifier": "philbuchanan.CodaClassic",
     "name": "Coda Classic",
     "vendor": "Phil Buchanan",
     "description": "Coda Classic syntax highlighting theme.",
-    "version": "0.1.0",
+    "version": "0.2.0",
     "categories": ["themes"],
     "license": "MIT"
 }

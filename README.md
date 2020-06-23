@@ -1,3 +1,3 @@
 # Coda Classic Theme for Nova
 
-Unfinished state.
+Based on the Coda Classic theme from Coda 2.
