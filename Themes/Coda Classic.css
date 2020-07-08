@@ -1,6 +1,7 @@
 meta {
     -theme-interface-style: light;
     -theme-vibrancy: vibrant;
+    -theme-accent-color: auto;
 }
 
 /* Window Styles */
@@ -80,9 +81,7 @@ processing {
 declaration {
     color: #000;
 }
-bracket {
-    color: #000;
-}
+bracket,
 operator {
     color: #000;
 }
@@ -90,43 +89,40 @@ invalid {
     color: white;
     background-color: #FF0000;
 }
+link {
+    color: rgb(218, 10%, 80%);
+}
 
 /* Values */
 value {
-    color: #881350;
+    color: #994500;
 }
-value.boolean {
-    color: #881350;
-}
+value.boolean,
 value.null {
     color: #881350;
 }
 value.number {
     color: #1739f6;
 }
-value.entity {
-    color: #881350;
-}
+value.entity,
+value.symbol,
 value.symbols {
     color: #881350;
 }
 
 /* Strings */
-string {
+string,
+string-template,
+string-template.value {
     color: #1A1AA6;
 }
 string.key {
-    color: #1A1AA6;
-}
-string-template {
-    color: #1A1AA6;
-}
-string-template.value {
-    color: #1A1AA6;
+    color: black;
 }
 regex {
     color: #661AA9;
 }
+string.escaped,
 regex.escaped {
     color: #BE73FD;
 }
@@ -135,88 +131,55 @@ cdata {
 }
 
 /* Identifiers */
-identifier {
-    color: #825900;
-}
+identifier.global,
 identifier.type {
-    color: #881350;
-}
-identifier.type.class {
-    color: #661AA9;
-}
-identifier.type.protocol {
-    color: #661AA9;
-}
-identifier.type.enum {
-    color: #661AA9;
-}
-identifier.type.union {
-    color: #661AA9;
-}
-identifier.type.struct {
-    color: #661AA9;
-}
-identifier.global {
     color: #881350;
 }
 identifier.variable {
     color: #825900;
 }
-identifier.constant {
-    color: black;
+identifier.type.class,
+identifier.type.protocol,
+identifier.type.enum,
+identifier.type.union,
+identifier.type.struct {
+    color: #661AA9;
 }
-identifier.property {
+identifier.constant,
+identifier.property,
+identifier.key,
+identifier.argument {
     color: black;
 }
 identifier.decorator {
     color: #881350;
 }
 identifier.function {
-    color: #661AA9;
+    color: #1A1AA6;
 }
 identifier.method {
     color: #661AA9;
 }
-identifier.key {
-    color: #000;
-}
-identifier.core {
-    color: #825900;
-}
 
 /* Definitions */
-definition {
+definition,
+definition.property {
     color: black;
 }
 definition.type {
     color: #881350;
 }
-definition.class {
-    color: #661AA9;
-}
-definition.package {
-    color: #661AA9;
-}
-definition.protocol {
-    color: #661AA9;
-}
-definition.enum {
-    color: #661AA9;
-}
-definition.union {
-    color: #661AA9;
-}
-definition.struct {
-    color: #661AA9;
-}
-definition.property {
-    color: black;
-}
-definition.function {
-    color: #661AA9;
-}
+definition.class,
+definition.package,
+definition.protocol,
+definition.enum,
+definition.union,
+definition.struct,
 definition.method {
     color: #661AA9;
+}
+definition.function {
+    color: #1A1AA6;
 }
 
 /* Tags */
@@ -226,95 +189,39 @@ tag {
 tag.framework {
     color: #DD0000;
 }
-tag.attribute {
-    color: #994500;
-}
 tag.attribute.name {
     color: #994500;
 }
 tag.attribute.value {
     color: #1A1AA6;
 }
+tag.attribute.value.link {
+    color: rgb(0, 76, 203);
+}
 
 /* Style */
-style {
-    color: black;
-}
 style.at {
     color: black;
     font-weight: bold;
 }
-style.selector {
-    color: black;
-}
-style.selector.element {
-    color: black;
-}
-style.selector.identifier.id {
-    color: black;
-}
+style.selector.element,
+style.selector.identifier.id,
 style.selector.identifier.class {
     color: black;
 }
-style.selector.pseudoclass {
-    color: #a15b1e;
-}
+style.selector.pseudoclass,
 style.selector.pseudoelement {
     color: #a15b1e;
 }
-style.attribute {
-    color: #881350;
-}
 style.attribute.name {
-    color: #881350;
-}
-style.value {
-    color: #7f2520;
+    color: #88134F;
 }
 style.value.number {
     color: #1838f5;
 }
-style.value.color {
+style.value.color.named {
+    color: #a15b1e;
+}
+style.value.color.hex {
     color: #760F15;
-}
-style.value.named {
-    color: #881350;
-}
-style.value.hex {
-    color: #760F15;
-}
-style.value.keyword {
-    color: #9B4400;
-}
-
-/* Markup (Non-tag markup elements) */
-markup {
-    
-}
-markup.heading {
-    
-}
-markup.line {
-    
-}
-markup.bold {
-    
-}
-markup.italic {
-    
-}
-markup.strikethrough {
-    
-}
-markup.list {
-    
-}
-markup.list.item {
-    
-}
-markup.code {
-    
-}
-markup.link {
-    
 }
