@@ -135,7 +135,8 @@ identifier.global,
 identifier.type {
     color: #881350;
 }
-identifier.variable {
+identifier.variable,
+identifier.argument {
     color: #825900;
 }
 identifier.type.class,
@@ -147,8 +148,7 @@ identifier.type.struct {
 }
 identifier.constant,
 identifier.property,
-identifier.key,
-identifier.argument {
+identifier.key {
     color: black;
 }
 identifier.decorator {
