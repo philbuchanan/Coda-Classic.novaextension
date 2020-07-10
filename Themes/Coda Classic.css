@@ -155,7 +155,7 @@ identifier.decorator {
     color: #881350;
 }
 identifier.function {
-    color: #1A1AA6;
+    color: #003369;
 }
 identifier.method {
     color: #661AA9;
@@ -179,7 +179,7 @@ definition.method {
     color: #661AA9;
 }
 definition.function {
-    color: #1A1AA6;
+    color: #003369;
 }
 
 /* Tags */
